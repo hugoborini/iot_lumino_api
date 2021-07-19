@@ -6,7 +6,19 @@ pour lister les salle et voir lesquelles sont reserver a l'heure actuelle :
     method : get
 	    apiURL/getAllRoom
 
-pour lister les salle et voir lesquelles sont reserver a l'heure actuelle :
+pour reserver une salle :
+
+    method : post
+    params = {
+        nameRoom: str
+        start: int
+        end: int
+        email: str
+    }
+	    apiURL/bookaroom
+
+pour voir les reservation d'une salle
 
     method : get
-	    apiURL/getallsalle
+        
+        apiUrl/getAllBookingFromARoom/<str:nameRoom>
