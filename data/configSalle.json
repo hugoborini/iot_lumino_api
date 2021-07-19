@@ -1,0 +1,27 @@
+[
+    {
+        "nameSalle" : "A008",
+        "nbPlace" : 50,
+        "isReserved": false,
+        "start":null,
+        "end": null,
+        "studentMail":null
+    },
+    {
+        "nameSalle" : "A101",
+        "nbPlace" : 50,
+        "isReserved": false,
+        "start":null,
+        "end": null,
+        "studentMail":null
+    },
+    {
+        "nameSalle" : "A111",
+        "nbPlace" : 50,
+        "isReserved": false,
+        "start":null,
+        "end": null,
+        "studentMail":null
+
+    }
+]
