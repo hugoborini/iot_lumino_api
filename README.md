@@ -22,3 +22,15 @@ pour voir les reservation d'une salle
     method : get
         
         apiUrl/getAllBookingFromARoom/<str:nameRoom>
+pour sup un rerservation: 
+
+    method : get
+        
+        apiUrl/removeABooking/<string:idBooking>'/<str:nameRoom>
+
+
+pour checker en detail les plage horaire dispo 
+
+    method : get
+        
+        apiUrl/getBookingByRoomId/<string:idRoom>'
