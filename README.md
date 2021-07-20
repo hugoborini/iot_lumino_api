@@ -13,7 +13,7 @@ pour reserver une salle :
         nameRoom: str
         start: int
         end: int
-        email: str
+        studentEmail: str
     }
 	    apiURL/bookaroom
 
