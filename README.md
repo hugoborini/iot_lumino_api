@@ -26,7 +26,7 @@ pour sup un rerservation:
 
     method : get
         
-        apiUrl/removeABooking/<string:idBooking>'/<str:nameRoom>
+        apiUrl/removeABooking/<string:idBooking>
 
 
 pour checker en detail les plage horaire dispo 
