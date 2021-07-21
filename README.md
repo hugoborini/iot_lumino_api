@@ -34,3 +34,9 @@ pour checker en detail les plage horaire dispo
     method : get
         
         apiUrl/getBookingByRoomId/<string:idRoom>'
+
+pour avoir les booking par email 
+   
+	method : get        
+        	apiUrl/getBookingByEmail/<string:email>'
+
